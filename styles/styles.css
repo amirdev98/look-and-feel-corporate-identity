@@ -1,0 +1,310 @@
+/* Import Roboto font */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+/* ROOT */
+:root {
+  --charcoal: #282a35;
+  --light-green: #d9eee1;
+  --light-rose: #f3ecea;
+  --light-blue: #96d4d4;
+  --magenta-donker: #B9005F;
+  --magenata-licht: #E30059;
+  --body-color: #eeeeee;
+  --magenata-licht: #E30059;
+  --licht-grijs: #DDDDDD;
+  --turkoois: #25AE93;
+  --grijs: #444444;
+  --cyaan: #46BECD;
+  --blauw: #606EB3;
+  --bruin: #6A4955;
+  --zand: #C9B5B2;
+  --geel: #FFD05F;
+  --zwart: #000;
+  --wit: #FFF;
+}
+
+/* GLOBAL RESEST */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+
+  font-family: "Roboto", sans-serif;
+  /* font-family: Fira Sans; */
+}
+
+body {
+  background-color: var(--body-color);
+  display: grid-col 1fr, 1fr;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: var(--zwart);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+a:hover {
+  color: var(--magenta-donker);
+}
+
+/* LAYOUT */
+.row {
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* HEROSECTION */
+nav {
+  min-height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  background-color: var(--wit);
+  flex-wrap: wrap;
+
+}
+header{
+  background-color: var(--blauw);
+  height: calc(75vh - 70px);
+  padding: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+.header__row {
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__heading {
+  max-width: 90%;
+}
+
+.header__image--wrapper {
+  max-width: 90%;
+}
+
+.header__image {
+  width:auto;
+  height: auto;
+}
+
+h1 {
+  font-size: 60px;
+  word-wrap: break-word;
+}
+.subheader {
+  font-size: 36px;
+  margin-top: 0.5em;
+}
+
+.logo {
+   
+  height: 40px;
+}
+
+
+ul {
+  display: flex;
+
+}
+
+li {
+  list-style: none;
+  padding-left: 1em;
+}
+
+/* MAIN */
+.richtlijnen{
+  
+
+
+}
+.article__waarneembaar {
+  background-color: var(--light-green);
+  width: auto;
+  position
+}
+
+
+/* waarneembaar */
+
+/* FOOTER */    
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 850px)
+  nav {
+    flex-direction: column;
+    height: auto;
+    padding: 1em 0;
+  }
+
+  .row {
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+
+  .title {
+    font-size: 2em;
+    color: #96d4d4;
+  }
+
+  ul {
+    margin-top: 0.5em;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+/* @media screen and (max-width: 550px) {
+    a {
+        font-size: 16px;
+  } */
+summary{
+
+position:relative;
+margin: 2rem;
+padding: 2rem;
+text-size-adjust:var(--charcoal);
+}
+
+
+#waarneembaar-meter{
+position:relative;
+margin-left: 4rem;
+padding: 1rem;
+
+}
+
+
+
+
+footer {
+  background-color: var(--turkoois);
+  font-family: 'Fira Sans Regular';
+  justify-content: center;
+  margin-top: 6rem;
+  flex-wrap: wrap;
+  padding: 3rem;
+  display: flex;
+  width: 100vw;
+  gap: 5rem;
+  color:#000
+}
+
+.regio-logo {
+  line-height: 1.6;
+  padding: 20px;
+}
+
+.regio-logo img {
+  height: 200px;
+  width: 200px%;
+  margin-bottom:100px;
+}
+
+.contact-footer {
+  color: var(--wit);
+  font-size: 1.3rem;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+.contact-footer h4 {
+  color: #000;
+  padding-left: 1rem;
+  font-size: 1.5rem;
+}
+
+.ul-footer {
+  padding: 0.6rem;
+}
+
+.ul-footer li {
+  list-style-type: none;
+  padding: 0.4rem;
+  color: #B9005F;
+}
+
+.display-vragen-formulier {
+  border: 1px solid var(--licht-grijs);
+  font-family: 'Fira Sans Regular';
+  background-color: var(--magenta-donker);
+  border-radius: 4px;
+  font-size: 1.2rem;
+  height: 2.4rem;
+  z-index: 0;
+  width: 14%;
+ 
+}
+
+.undisplay-vragen-formulier {
+  z-index: -1;
+}
+
+.display-vragen-formulier:hover {
+  border: 1px solid var(--licht-grijs);
+  background-color: var(--licht-grijs);
+}
+
+input[type=text],
+select,
+textarea {
+  border: 1px solid var(--licht-grijs);
+  box-sizing: border-box;
+  margin-bottom: 16px;
+  border-radius: 4px;
+  max-height: 7rem;
+  resize: vertical;
+  margin-top: 6px;
+  padding: 12px;
+  width: 100%;
+}
+
+input[type=submit] {
+  background-color: var(--magenta-donker);
+  border-radius: 4px;
+  padding: 12px 20px;
+  color: var(--wit);
+  cursor: pointer;
+  border: none;
+}
+
+input[type=submit]:hover {
+  background-color: var(--magenata-licht);
+}
+
+.vragen-formulier {
+  transition: transform 0.5s ease-out;
+  background-color: var(--wit);
+  transform: translateX(200%);
+  border-radius: 5px;
+  max-width: 20rem;
+  padding: 20px;
+}
+
+.vragen-formulier-display {
+  transform: translateX(-200px);
+}
+
+@media (max-width: 800px) {
+  .vragen-formulier-display {
+      transform: translateX(0px);
+  }
+}
