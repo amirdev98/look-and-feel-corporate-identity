@@ -2,8 +2,8 @@
 Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. 
 De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
-# Titel
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
+# De interactieve checklist
+Ik heb een checklist gebouwd om alle onderwerpen van een toegankelijk website te kunnen aaanvinken als de developer die de website bouwt klaar heeft staan.
 
 ## Beschrijving
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
