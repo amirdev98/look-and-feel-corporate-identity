@@ -7,8 +7,10 @@ Ik heb een checklist gebouwd om alle onderwerpen van een toegankelijk website te
 
 ## Beschrijving
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-<!-- Voeg een mooie poster visual toe 📸 -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
+<img width="1727" alt="image" src="https://user-images.githubusercontent.com/81859699/212664674-f5f2b850-2f23-412d-9f1d-8c74f8061be2.png">
+
+📸 >
+https://amirdev98.github.io/fix-the-flow-interactive-website/ 🌐
 
 ## Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
